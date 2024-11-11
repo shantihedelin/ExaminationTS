@@ -51,6 +51,15 @@ export type Receipt = {
   items: ReceiptItem[];
 };
 
+export type CategoriesContainerProps = {
+  title: string;
+  products: (Wonton | Dip | Drink)[];
+};
+
+export type CartModalProps = {
+  onClose: () => void;
+};
+
 // ENUMS
 export enum OrderState {
   Waiting = "waiting",

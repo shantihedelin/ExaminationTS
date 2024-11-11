@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { createSlice, createAsyncThunk, PayloadAction } from "@reduxjs/toolkit";
 import { OrderState } from "../types/index";
@@ -74,6 +74,7 @@ const productsSlice = createSlice({
         (item) =>
           item.id === action.payload.id && item.type === action.payload.type
       );
+      console.log("Adding to order:", action.payload);
       if (existingItem) {
         existingItem.quantity += 1;
       } else {
