@@ -28,7 +28,9 @@ _Förväntad tidsåtgång:_ ca **32h**.
 ## Assets
 
 **Design och UX:aren** har utifrån sina samtal och process med Yum Yums VD samt användartester kommit fram till en design ni ska hålla er till.
+
 [Här finns en Figma-mockup](https://www.figma.com/design/KPgi0MtbAGhkpSRrjyKOW8/Yum-yum-gimmi-sum?node-id=0-1&t=yMERp4Gfa6h5W1o4-1) hur applikationens olika vyer skall se ut.
+
 I mappen [assets](./assets/) finns de exporterade assets som behövs.
 
 ## API
