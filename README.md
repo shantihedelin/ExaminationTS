@@ -22,7 +22,7 @@ För betyget godkänt ska er inlämning följa nedan krav:
 
 _Förväntad tidsåtgång:_ ca **32h**.
 
-!!! OBSERVERA !!!
+[!IMPORTANT]
 Du ska ["forka"](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) detta repo och använda som inlämning. Använd den tomma mappen [project](./project) för ditt projekt.
 
 ## Assets
@@ -49,7 +49,7 @@ https://fdnzawlcf6.execute-api.eu-north-1.amazonaws.com
 
 Samtliga anrop till API:et behöver en nyckel som ni kan hämta via `/keys` routen. Denna behöver ligga med i headern `x-zocom` vid varje anrop.
 
-!! VIKTIGT !!
+[!NOTE]
 Yum yum har **flera** Food trucks, så varje food truck behöver registereras. En sk `tenant`. När ni gjort det får ni ett unikt ID som knyter just er Food truck till specifika beställningar.
 
 ## Inlämning och presentation
