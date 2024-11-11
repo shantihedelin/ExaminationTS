@@ -22,8 +22,8 @@ För betyget godkänt ska er inlämning följa nedan krav:
 
 _Förväntad tidsåtgång:_ ca **32h**.
 
-[!IMPORTANT]
-Du ska ["forka"](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) detta repo och använda som inlämning. Använd den tomma mappen [project](./project) för ditt projekt.
+> [!IMPORTANT]
+> Du ska ["forka"](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) detta repo och använda som inlämning. Använd den tomma mappen [project](./project) för ditt projekt.
 
 ## Assets
 
