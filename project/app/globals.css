@@ -1,17 +1,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #489078;
+.dots::after {
+  content: "";
+  display: block;
+  color: white;
+  width: 100%;
+  border-top: 1px dotted currentColor;
+  transform: translateY(-50%);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  /* font-family: Arial, Helvetica, sans-serif; */
+.dots-cart::after {
+  content: "";
+  display: block;
+  color: black;
+  width: 100%;
+  border-top: 1px dotted currentColor;
+  transform: translateY(-50%);
 }
 
-/* Modal.css */
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -25,10 +32,8 @@ body {
 }
 
 .modal-content {
-  background: white;
   padding: 20px;
   border-radius: 8px;
   max-width: 500px;
   width: 100%;
 }
-

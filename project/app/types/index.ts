@@ -1,5 +1,3 @@
-
-
 export type WontonType = "wonton" | "dip" | "drink";
 
 export type Wonton = {
@@ -31,6 +29,16 @@ export type Products = {
   wontons: Wonton[];
   dips: Dip[];
   drinks: Drink[];
+};
+
+export type Additions = Exclude<
+  CategoriesContainerProps["products"][number],
+  Wonton
+>;
+
+export type AdditionsContainerProps = {
+  title: string;
+  products: Additions[];
 };
 
 export type Order = {

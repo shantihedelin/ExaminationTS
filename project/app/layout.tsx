@@ -1,5 +1,5 @@
 "use client";
-import localFont from "next/font/local";
+
 import { Fira_Sans } from "next/font/google";
 import "./globals.css";
 import store from "./redux/store";
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={firaSans.className}>
-      <body className="bg-[##489078]">
+      <body className="bg-[##489078] m-0">
         <Provider store={store}>{children}</Provider>
       </body>
     </html>
